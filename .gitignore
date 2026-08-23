@@ -8,3 +8,8 @@ dist/
 # Sistema operacional
 Thumbs.db
 .DS_Store
+
+# Editor Godot extraido pelo dev (nunca versionar)
+Godot_v*/
+*.exe
+

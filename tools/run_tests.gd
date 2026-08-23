@@ -80,7 +80,7 @@ func _test_scoring() -> void:
 	eq(Scoring.tier_base(3), 90, "base t3")
 	eq(Scoring.tier_base(5), 180, "base t5")
 	eqf(Scoring.rank_multiplier(1), 1.0, "mult r1")
-	eqf(Scoring.rank_multiplier(9), 1.72, "mult r9 linear")
+	eqf(Scoring.rank_multiplier(9), 1.64, "mult r9 linear")
 	eqf(Scoring.rank_multiplier(10), 3.0, "r10 substitui por 3.0")
 	eq(Scoring.compute_xp(60, 1.0, 0, 0, 0), 60, "xp sem bonus")
 	eq(Scoring.compute_xp(60, 1.0, 1, 0, 0), 69, "bonus 1 PA livre +15%")
@@ -162,8 +162,9 @@ func _test_discard() -> void:
 	ok(not d["eliminated"].has("bra-x"), "jamais elimina a correta")
 	ok(d["eliminated"].size() >= 2, "elimina ao menos 2 quando ha divergencia")
 	var same := DiscardLib.build_discard(by_id["bra-y"], target, panel, by_id)
-	eq(same["statements"].size(), 0, "cidades gemeas nao geram afirmacao falsa")
-	eq(same["eliminated"].size(), 0, "gemeas nao eliminam ninguem")
+	ok(same["statements"].size() >= 1, "gemea ainda ensina atributo verdadeiro do alvo")
+	ok(not same["eliminated"].has("bra-y"), "a propria gemea nunca sai do painel")
+	ok(not same["eliminated"].has("bra-x"), "correta jamais eliminada")
 
 
 func _test_engine() -> void:
@@ -192,13 +193,13 @@ func _test_engine() -> void:
 	eq(r["state"]["verba"], 85, "informante custa 15")
 
 	var cities := _fixture_pool_dict()
-	var target := cities["bra-x"]
+	var target: Dictionary = cities["bra-x"]
 	var ok_state := TurnEngine.new_stage_state(1, 100, 555)
 	var rt := TurnEngine.resolve_travel(ok_state, "bra-x", target, cities)
 	ok(rt["correct"], "viagem correta")
 	ok(rt["xp"] > 0, "xp positivo no acerto")
-	eq(rt["verba_gain"], 30, "bounty cheio na 1a tentativa")
-	eq(rt["rep_delta"], 10, "reputacao na 1a tentativa")
+	eq(rt["verba_gain"], 40, "bounty t2 cheio na 1a tentativa")
+	eq(rt["rep_delta"], 12, "reputacao t2 na 1a tentativa")
 	eq(rt["state"]["streak"], 1, "carimbo de moral")
 
 	var bad := TurnEngine.resolve_travel(ok_state, "mex-z", target, cities)

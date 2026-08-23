@@ -327,6 +327,10 @@ func discard_text(d: Dictionary) -> String:
 
 
 # ---------------------------------------------------------------- fim de caso
+func _next_stage() -> void:
+	_start_stage()
+
+
 func _case_complete() -> void:
 	result_label.text = "🎉 CASO CONCLUÍDO! Postais: %d/5 · XP total: %d · Verba: %d" % [
 		postais.size(), xp_total, verba,
