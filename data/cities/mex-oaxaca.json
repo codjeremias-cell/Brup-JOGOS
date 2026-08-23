@@ -1,0 +1,179 @@
+{
+  "schema_version": "2.0",
+  "content_version": "2026.08.001",
+  "city_id": "mex-oaxaca",
+  "names": { "pt-BR": "Oaxaca", "en-US": "Oaxaca", "es": "Oaxaca" },
+  "country": { "pt-BR": "México", "en-US": "Mexico", "es": "México", "iso2": "MX" },
+  "continent": "north_america",
+  "difficulty_tier": 2,
+  "coords": { "lat": 17.0732, "lon": -96.7266 },
+  "timezone": "America/Mexico_City",
+  "utc_offset": -6,
+  "facts": {
+    "currency_iso": "MXN",
+    "languages": ["es"],
+    "climate_tag": "temperado_altitude",
+    "language_family": "romance",
+    "flag_iso": "MX"
+  },
+  "clues": [
+    {
+      "clue_id": "mex-oaxaca-low-01",
+      "tier": "low",
+      "category": "gastronomia",
+      "text": {
+        "pt-BR": "Sete moles disputam o posto de prato oficial da cidade; ninguém sai perdendo.",
+        "en-US": "Seven moles compete for the city's official dish title; no one loses.",
+        "es": "Siete moles compiten por ser el plato oficial de la ciudad; nadie pierde."
+      },
+      "analysis": {
+        "pt-BR": "“Sete moles” é tradição gastronômica declarada de um estado do sul mexicano.",
+        "en-US": "'Seven moles' is a declared culinary tradition of a southern Mexican state.",
+        "es": "'Siete moles' es una tradición culinaria declarada de un estado sureño mexicano."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Tradição dos 'siete moles' oaxaqueños"
+    },
+    {
+      "clue_id": "mex-oaxaca-low-02",
+      "tier": "low",
+      "category": "marco",
+      "text": {
+        "pt-BR": "Ruínas zapotecas vigiam a cidade do alto de um platô achatado.",
+        "en-US": "Zapotec ruins watch over the city from a flattened plateau above.",
+        "es": "Ruinas zapotecas vigilan la ciudad desde una meseta aplanada arriba."
+      },
+      "analysis": {
+        "pt-BR": "Zapotecas + platô artificialmente nivelado apontam para Monte Albán.",
+        "en-US": "Zapotecs plus an artificially leveled plateau point to Monte Albán.",
+        "es": "Zapotecos más meseta nivelada apuntan a Monte Albán."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Monte Albán, capital zapoteca, Patrimônio da Humanidade"
+    },
+    {
+      "clue_id": "mex-oaxaca-low-03",
+      "tier": "low",
+      "category": "idioma_cultura",
+      "text": {
+        "pt-BR": "Agave destilado nesta região brinda contratos, festas e despedidas.",
+        "en-US": "Agave distilled in this region toasts contracts, parties and farewells.",
+        "es": "El agave destilado en esta región brinda por contratos, fiestas y despedidas."
+      },
+      "analysis": {
+        "pt-BR": "Destilado de agave com denominação de origem ligada ao estado de Oaxaca.",
+        "en-US": "An agave spirit with a denomination of origin tied to Oaxaca state.",
+        "es": "Un destilado de agave con denominación de origen ligada al estado de Oaxaca."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Mezcal com denominação de origem, produção histórica oaxaqueña"
+    },
+    {
+      "clue_id": "mex-oaxaca-mid-01",
+      "tier": "mid",
+      "category": "gastronomia",
+      "text": {
+        "pt-BR": "Bebida pré-hispânica de milho fermentado chamada 'bebida dos deuses'.",
+        "en-US": "A pre-Hispanic fermented corn drink called 'the drink of the gods'.",
+        "es": "Bebida prehispánica de maíz fermentado llamada 'bebida de los dioses'."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Tejate, bebida tradicional zapoteca"
+    },
+    {
+      "clue_id": "mex-oaxaca-mid-02",
+      "tier": "mid",
+      "category": "natureza",
+      "text": {
+        "pt-BR": "Cascatas petrificadas de calcário brilham a poucas horas da cidade.",
+        "en-US": "Petrified limestone waterfalls gleam a few hours from the city.",
+        "es": "Cascadas petrificadas de caliza brillan a unas horas de la ciudad."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Hierve el Agua, formações minerais naturais"
+    },
+    {
+      "clue_id": "mex-oaxaca-mid-03",
+      "tier": "mid",
+      "category": "idioma_cultura",
+      "text": {
+        "pt-BR": "Esculturas de madeira pintadas em cores impossíveis saem dos povoados vizinhos.",
+        "en-US": "Wood carvings painted in impossible colors come from nearby villages.",
+        "es": "Esculturas de madera pintadas en colores imposibles salen de los pueblos vecinos."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Alebrijes oaxaqueños de madeira (San Antonio Arrazola e San Martín Tilcajete)"
+    },
+    {
+      "clue_id": "mex-oaxaca-high-01",
+      "tier": "high",
+      "category": "marco",
+      "text": {
+        "pt-BR": "Convento dominicano dourado domina o centro patrimônio da humanidade desde 1987.",
+        "en-US": "A gilded Dominican convent dominates the historic center inscribed by UNESCO in 1987.",
+        "es": "Un convento dominicano dorado domina el centro histórico inscrito por la UNESCO en 1987."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Templo de Santo Domingo; inscrição UNESCO 1987 (centro + Monte Albán)"
+    },
+    {
+      "clue_id": "mex-oaxaca-high-02",
+      "tier": "high",
+      "category": "idioma_cultura",
+      "text": {
+        "pt-BR": "'Guelaguetza' significa retribuição mútua em zapoteco: festival inteiro em julho.",
+        "en-US": "'Guelaguetza' means mutual giving in Zapotec: a whole July festival.",
+        "es": "'Guelaguetza' significa reciprocidad en zapoteco: todo un festival en julio."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Festival Guelaguetza, realizado em julho desde 1932"
+    },
+    {
+      "clue_id": "mex-oaxaca-high-03",
+      "tier": "high",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Dois presidentes marcantes do século XIX nasceram neste estado: o zapoteca e o mixteca.",
+        "en-US": "Two landmark 19th-century presidents were born in this state: the Zapotec and the Mixtec.",
+        "es": "Dos presidentes notables del siglo XIX nacieron en este estado: el zapoteca y el mixteca."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Benito Juárez (zapoteca) e Porfirio Díaz (mixteca), ambos oaxaqueños"
+    }
+  ],
+  "distractors": [
+    "mex-puebla",
+    "mex-san-cristobal",
+    "mex-merida",
+    "mex-morelia",
+    "gtm-antigua",
+    "per-cusco"
+  ],
+  "postcard": {
+    "art_ref": "postcard_mex_oaxaca",
+    "fun_fact": {
+      "pt-BR": "Hierve el Agua forma piscinas naturais em cascatas 'petrificadas' por milênios de depósitos minerais.",
+      "en-US": "Hierve el Agua forms natural pools in falls 'petrified' by millennia of mineral deposits.",
+      "es": "Hierve el Agua forma piscinas naturales en cascadas 'petrificadas' por milenios de depósitos minerales."
+    }
+  },
+  "tags": ["mole", "mezcal", "zapoteca", "artesanato"]
+}

@@ -1,0 +1,179 @@
+{
+  "schema_version": "2.0",
+  "content_version": "2026.08.001",
+  "city_id": "bra-ouro-preto",
+  "names": { "pt-BR": "Ouro Preto", "en-US": "Ouro Preto", "es": "Ouro Preto" },
+  "country": { "pt-BR": "Brasil", "en-US": "Brazil", "es": "Brasil", "iso2": "BR" },
+  "continent": "south_america",
+  "difficulty_tier": 3,
+  "coords": { "lat": -20.3856, "lon": -43.5035 },
+  "timezone": "America/Sao_Paulo",
+  "utc_offset": -3,
+  "facts": {
+    "currency_iso": "BRL",
+    "languages": ["pt"],
+    "climate_tag": "tropical_altitude",
+    "language_family": "romance",
+    "flag_iso": "BR"
+  },
+  "clues": [
+    {
+      "clue_id": "bra-ouro-preto-low-01",
+      "tier": "low",
+      "category": "geografia",
+      "text": {
+        "pt-BR": "Ladeiras de pedra irregular sobem morros onde cada igreja coroa um topo.",
+        "en-US": "Uneven cobblestone streets climb hills where each church crowns one summit.",
+        "es": "Calles empedradas irregulares suben cerros donde cada iglesia corona una cima."
+      },
+      "analysis": {
+        "pt-BR": "Topografia serrana com igrejas-colina sugere vila colonial de montanha mineira.",
+        "en-US": "Hilly terrain with hilltop churches suggests a colonial mountain village of Minas Gerais.",
+        "es": "Relieve montañoso con iglesias en las cimas sugiere una villa colonial minera de montaña."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Relevo histórico da antiga Vila Rica, Serra do Espinhaço"
+    },
+    {
+      "clue_id": "bra-ouro-preto-low-02",
+      "tier": "low",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Ouro dos riachos fundou esta vila no fim do século XVII — e o nome guarda o segredo.",
+        "en-US": "Gold from the creeks founded this town at the end of the 17th century — and the name keeps the secret.",
+        "es": "El oro de los arroyos fundó esta villa a fines del siglo XVII — y el nombre guarda el secreto."
+      },
+      "analysis": {
+        "pt-BR": "Nome da cidade literalmente descreve o metal escurecido dos ribeiros auríferos.",
+        "en-US": "The city's name literally describes darkened gold from gold-bearing streams.",
+        "es": "El nombre de la ciudad describe literalmente el metal oscurecido de los arroyos auríferos."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Corrida do ouro em Minas Gerais, ~1698"
+    },
+    {
+      "clue_id": "bra-ouro-preto-low-03",
+      "tier": "low",
+      "category": "marco",
+      "text": {
+        "pt-BR": "Primeiro sítio brasileiro inscrito como Patrimônio da Humanidade.",
+        "en-US": "The first Brazilian site inscribed as World Heritage.",
+        "es": "Primer sitio brasileño inscrito como Patrimonio de la Humanidad."
+      },
+      "analysis": {
+        "pt-BR": "Inscrição pioneira de 1980 abre a lista brasileira da UNESCO.",
+        "en-US": "The pioneering 1980 inscription opens Brazil's UNESCO list.",
+        "es": "La inscripción pionera de 1980 abre la lista brasileña de la UNESCO."
+      },
+      "uniqueness_scope": "global",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "UNESCO WHC, inscrição de 1980"
+    },
+    {
+      "clue_id": "bra-ouro-preto-mid-01",
+      "tier": "mid",
+      "category": "marco",
+      "text": {
+        "pt-BR": "Um mestre barroco que perdia os movimentos das mãos assinou fachadas esculpidas em pedra-sabão.",
+        "en-US": "A Baroque master who was losing use of his hands signed façades carved in soapstone.",
+        "es": "Un maestro barroco que perdía los movimientos de las manos firmó fachadas talladas en piedra-sabão."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Antônio Francisco Lisboa, o Aleijadinho; Igreja de São Francisco de Assis"
+    },
+    {
+      "clue_id": "bra-ouro-preto-mid-02",
+      "tier": "mid",
+      "category": "historia",
+      "text": {
+        "pt-BR": "A revolta de 1789 queria liberdade antes da hora; o alferes dentista pagou com a vida.",
+        "en-US": "The 1789 revolt wanted freedom ahead of its time; the lieutenant-dentist paid with his life.",
+        "es": "La revuelta de 1789 quería libertad antes de tiempo; el alférez dentista pagó con su vida."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Inconfidência Mineira (1789); execução de Tiradentes em 1792"
+    },
+    {
+      "clue_id": "bra-ouro-preto-mid-03",
+      "tier": "mid",
+      "category": "economia",
+      "text": {
+        "pt-BR": "Minas históricas abertas à visitação mostram túneis escavados no século XVIII.",
+        "en-US": "Historic mines open to visitors show tunnels dug in the 18th century.",
+        "es": "Minas históricas abiertas al turismo muestran túneles excavados en el siglo XVIII."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Mina do Chico Rei e outras galerias coloniais turísticas"
+    },
+    {
+      "clue_id": "bra-ouro-preto-high-01",
+      "tier": "high",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Chegou a ser a maior cidade da América portuguesa no século XVIII.",
+        "en-US": "It grew to be the largest city of Portuguese America in the 18th century.",
+        "es": "Llegó a ser la mayor ciudad de la América portuguesa en el siglo XVIII."
+      },
+      "uniqueness_scope": "global",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Vila Rica no auge do ciclo do ouro — caracterização historiográfica comum"
+    },
+    {
+      "clue_id": "bra-ouro-preto-high-02",
+      "tier": "high",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Uma escola de minas fundada em 1876 trouxe cientistas franceses ao subsolo.",
+        "en-US": "A mining school founded in 1876 brought French scientists to the underground.",
+        "es": "Una escuela de minas fundada en 1876 trajo científicos franceses al subsuelo."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Escola de Minas de Ouro Preto, fundada por Claude-Henri Gorceix"
+    },
+    {
+      "clue_id": "bra-ouro-preto-high-03",
+      "tier": "high",
+      "category": "geografia",
+      "text": {
+        "pt-BR": "O mártir da revolta nasceu numa fazenda a poucos quilômetros desta cidade.",
+        "en-US": "The revolt's martyr was born on a farm a few miles from this town.",
+        "es": "El mártir de la revuelta nació en una hacienda a pocos kilómetros de esta ciudad."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Nascimento de Tiradentes na Fazenda do Pombal, região de São João del-Rei"
+    }
+  ],
+  "distractors": [
+    "bra-mariana",
+    "bra-tiradentes",
+    "bra-diamantina",
+    "bra-congonhas",
+    "bra-petropolis",
+    "bra-paraty"
+  ],
+  "postcard": {
+    "art_ref": "postcard_bra_ouro_preto",
+    "fun_fact": {
+      "pt-BR": "A pedra-sabão, macia quando recém-extraída, permitiu ao Aleijadinho esculpir obras-primas mesmo doente.",
+      "en-US": "Soapstone, soft when freshly quarried, let the Aleijadinho carve masterpieces even while ill.",
+      "es": "La piedra-sabão, blanda recién extraída, permitió al Aleijadinho tallar obras maestras incluso enfermo."
+    }
+  },
+  "tags": ["barroco", "ouro", "montanhas", "patrimonio"]
+}

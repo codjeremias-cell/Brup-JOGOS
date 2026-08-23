@@ -1,0 +1,180 @@
+{
+  "schema_version": "2.0",
+  "content_version": "2026.08.001",
+  "city_id": "bra-salvador",
+  "names": { "pt-BR": "Salvador", "en-US": "Salvador", "es": "Salvador" },
+  "country": { "pt-BR": "Brasil", "en-US": "Brazil", "es": "Brasil", "iso2": "BR" },
+  "continent": "south_america",
+  "difficulty_tier": 2,
+  "coords": { "lat": -12.9777, "lon": -38.5016 },
+  "timezone": "America/Bahia",
+  "utc_offset": -3,
+  "facts": {
+    "currency_iso": "BRL",
+    "languages": ["pt"],
+    "climate_tag": "tropical_costeiro",
+    "language_family": "romance",
+    "flag_iso": "BR"
+  },
+  "clues": [
+    {
+      "clue_id": "bra-salvador-low-01",
+      "tier": "low",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Primeira capital da colônia que virou país: mandou por mais de duzentos anos.",
+        "en-US": "First capital of the colony that became a country: it ruled for over two hundred years.",
+        "es": "Primera capital de la colonia que se volvió país: mandó por más de doscientos años."
+      },
+      "analysis": {
+        "pt-BR": "“Primeira capital colonial” com duzentos anos de reinado aponta para sede portuguesa fundada no século XVI.",
+        "en-US": "'First colonial capital' ruling two hundred years points to a Portuguese seat founded in the 16th century.",
+        "es": "'Primera capital colonial' con doscientos años de reinado apunta a una sede portuguesa fundada en el siglo XVI."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Capital do Brasil de 1549 a 1763"
+    },
+    {
+      "clue_id": "bra-salvador-low-02",
+      "tier": "low",
+      "category": "marco",
+      "text": {
+        "pt-BR": "Um elevador público do século XIX costura cidade alta e baixa sobre um paredão de setenta metros.",
+        "en-US": "A public elevator from the 19th century stitches upper and lower town across a seventy-meter bluff.",
+        "es": "Un ascensor público del siglo XIX cose ciudad alta y baja sobre un acantilado de setenta metros."
+      },
+      "analysis": {
+        "pt-BR": "Cidade dividida em níveis por escarpa urbana, ligada por elevador histórico.",
+        "en-US": "A city split into levels by an urban escarpment, joined by a historic elevator.",
+        "es": "Ciudad dividida en niveles por una escarpa urbana, unida por un ascensor histórico."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Elevador Lacerda, inaugurado em 1873, ~72 m"
+    },
+    {
+      "clue_id": "bra-salvador-low-03",
+      "tier": "low",
+      "category": "idioma_cultura",
+      "text": {
+        "pt-BR": "O bairro colorido herda o nome do poste onde os castigos coloniais aconteciam.",
+        "en-US": "The colorful neighborhood inherits its name from the post where colonial punishments took place.",
+        "es": "El barrio colorido hereda el nombre del poste donde ocurrían los castigos coloniales."
+      },
+      "analysis": {
+        "pt-BR": "Topônimo ligado a instrumento de castigo público do período colonial.",
+        "en-US": "The place name refers to a public punishment device from colonial times.",
+        "es": "El topónimo refiere a un instrumento de castigo público del período colonial."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Pelourinho — memória histórica registrada pela UNESCO no conjunto"
+    },
+    {
+      "clue_id": "bra-salvador-mid-01",
+      "tier": "mid",
+      "category": "idioma_cultura",
+      "text": {
+        "pt-BR": "Fitas coloridas amarradas no pulso prometem três desejos, na lei de um Senhor do Bonfim.",
+        "en-US": "Colored ribbons tied around the wrist promise three wishes under a Lord of Bonfim's law.",
+        "es": "Cintas de colores atadas a la muñeca prometen tres deseos, bajo la ley de un Señor do Bonfim."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Tradição das fitinhas do Bonfim, sincretismo religioso baiano"
+    },
+    {
+      "clue_id": "bra-salvador-mid-02",
+      "tier": "mid",
+      "category": "geografia",
+      "text": {
+        "pt-BR": "Sua baía ganhou nome de Todos os Santos numa cartografia de novembro de 1501.",
+        "en-US": "Its bay was named All Saints in a mapping expedition of November 1501.",
+        "es": "Su bahía recibió nombre de Todos los Santos en una cartografía de noviembre de 1501."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Baía de Todos os Santos, expedição de Américo Vespúcio, 1º/11/1501"
+    },
+    {
+      "clue_id": "bra-salvador-mid-03",
+      "tier": "mid",
+      "category": "gastronomia",
+      "text": {
+        "pt-BR": "Bolinho de feijão-fradinho frito em dendê, oferenda de Iansã, vendido nos tabuleiros das baianas.",
+        "en-US": "Black-eyed pea fritters fried in dendê oil, offering to Iansã, sold from Bahian women's trays.",
+        "es": "Bolitas de frijol fradinho fritas en aceite de dendé, ofrenda de Iansá, vendidas en bandejas de bahianas."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Acarajé, patrimônio cultural afro-baiano"
+    },
+    {
+      "clue_id": "bra-salvador-high-01",
+      "tier": "high",
+      "category": "marco",
+      "text": {
+        "pt-BR": "Igreja franciscana com talha dourada apontada como a mais rica do Brasil.",
+        "en-US": "A Franciscan church holds gilded woodwork called the richest in Brazil.",
+        "es": "Una iglesia franciscana guarda talla dorada señalada como la más rica de Brasil."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Igreja da Ordem Terceira de São Francisco, séculos XVII–XVIII"
+    },
+    {
+      "clue_id": "bra-salvador-high-02",
+      "tier": "high",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Criou a primeira faculdade de medicina do país junto com a chegada da corte.",
+        "en-US": "It created the country's first medical school alongside the court's arrival.",
+        "es": "Creó la primera facultad de medicina del país junto con la llegada de la corte."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Escola de Cirurgia da Bahia, 1808"
+    },
+    {
+      "clue_id": "bra-salvador-high-03",
+      "tier": "high",
+      "category": "idioma_cultura",
+      "text": {
+        "pt-BR": "Berimbau, capoeira e Olodum: aqui a diáspora africana virou identidade musical da cidade.",
+        "en-US": "Berimbau, capoeira and Olodum: here the African diaspora became the city's musical identity.",
+        "es": "Berimbau, capoeira y Olodum: aquí la diáspora africana se volvió identidad musical de la ciudad."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Capoeira registrada como patrimônio cultural imaterial; Olodum fundado em 1979"
+    }
+  ],
+  "distractors": [
+    "bra-recife",
+    "bra-fortaleza",
+    "bra-rio-de-janeiro",
+    "cub-havana",
+    "dom-santo-domingo",
+    "ven-caracas",
+    "bra-florianopolis"
+  ],
+  "postcard": {
+    "art_ref": "postcard_bra_salvador",
+    "fun_fact": {
+      "pt-BR": "As fitinhas do Bonfim só cumprem o desejo quando o nó se desfaz sozinho no pulso.",
+      "en-US": "Bonfim ribbons only grant the wish when the knot falls apart on its own.",
+      "es": "Las cintas de Bonfim solo cumplen el deseo cuando el nudo se suelta solo."
+    }
+  },
+  "tags": ["colonial", "musica", "religiosidade", "praias", "gastronomia"]
+}

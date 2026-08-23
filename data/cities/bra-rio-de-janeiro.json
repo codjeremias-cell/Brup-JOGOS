@@ -1,0 +1,180 @@
+{
+  "schema_version": "2.0",
+  "content_version": "2026.08.001",
+  "city_id": "bra-rio-de-janeiro",
+  "names": { "pt-BR": "Rio de Janeiro", "en-US": "Rio de Janeiro", "es": "Río de Janeiro" },
+  "country": { "pt-BR": "Brasil", "en-US": "Brazil", "es": "Brasil", "iso2": "BR" },
+  "continent": "south_america",
+  "difficulty_tier": 1,
+  "coords": { "lat": -22.9068, "lon": -43.1729 },
+  "timezone": "America/Sao_Paulo",
+  "utc_offset": -3,
+  "facts": {
+    "currency_iso": "BRL",
+    "languages": ["pt"],
+    "climate_tag": "tropical_costeiro",
+    "language_family": "romance",
+    "flag_iso": "BR"
+  },
+  "clues": [
+    {
+      "clue_id": "bra-rio-de-janeiro-low-01",
+      "tier": "low",
+      "category": "geografia",
+      "text": {
+        "pt-BR": "Um gigante de pedra abre os braços sobre setecentos metros de granito, de costas para o oceano.",
+        "en-US": "A stone giant opens its arms seven hundred meters up on granite, back to the ocean.",
+        "es": "Un gigante de piedra abre los brazos a setecientos metros sobre el granito, de espaldas al océano."
+      },
+      "analysis": {
+        "pt-BR": "“Gigante de pedra” sugere monumento colossal em montanha alta; “setecentos metros” aponta picos urbanos famosos.",
+        "en-US": "'Stone giant' hints at a colossal mountain-top statue; 'seven hundred meters' points to famous urban peaks.",
+        "es": "'Gigante de piedra' sugiere un monumento colosal en una montaña alta; 'setecientos metros' apunta a picos urbanos famosos."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Monumento ao Cristo Redentor, topo do Corcovado (~710 m)"
+    },
+    {
+      "clue_id": "bra-rio-de-janeiro-low-02",
+      "tier": "low",
+      "category": "idioma_cultura",
+      "text": {
+        "pt-BR": "Num mês de verão, esta cidade realiza a maior festa do planeta — e chora na quarta-feira seguinte.",
+        "en-US": "In a summer month, this city throws Earth's biggest party — and cries the following Wednesday.",
+        "es": "En un mes de verano, esta ciudad hace la fiesta más grande del planeta — y llora el miércoles siguiente."
+      },
+      "analysis": {
+        "pt-BR": "Festa máxima seguida de “quarta-feira” remete a Cinzas: carnaval de rua em escala mundial.",
+        "en-US": "The biggest party followed by 'Wednesday' evokes Ash Wednesday: street carnival at planetary scale.",
+        "es": "La fiesta más grande seguida del 'miércoles' evoca el Miércoles de Ceniza: carnaval callejero a escala planetaria."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Carnaval do Rio, tradição documentada; Quarta-feira de Cinzas"
+    },
+    {
+      "clue_id": "bra-rio-de-janeiro-low-03",
+      "tier": "low",
+      "category": "geografia",
+      "text": {
+        "pt-BR": "A floresta desce o morro e entra na cidade: foi plantada de novo, à mão, há mais de um século.",
+        "en-US": "The forest walks down the hill into the city: it was hand-replanted over a century ago.",
+        "es": "El bosque baja del cerro y entra en la ciudad: fue replantado a mano hace más de un siglo."
+      },
+      "analysis": {
+        "pt-BR": "Floresta urbana replantada indica reflorestamento intencional do século XIX, caso raro.",
+        "en-US": "A replanted urban forest points to intentional 19th-century reforestation — a rare case.",
+        "es": "Un bosque urbano replantado señala una reforestación intencional del siglo XIX, caso raro."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Reflorestamento da Floresta da Tijuca iniciado em 1861"
+    },
+    {
+      "clue_id": "bra-rio-de-janeiro-mid-01",
+      "tier": "mid",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Seu estádio já recebeu duas finais de Copa do Mundo; numa delas, um gol calou duzentas mil pessoas.",
+        "en-US": "Its stadium hosted two World Cup finals; in one, a goal silenced two hundred thousand people.",
+        "es": "Su estadio recibió dos finales de Copa del Mundo; en uno, un gol silenció a doscientas mil personas."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Maracanã, finais de 1950 e 2014; público recorde de ~199 mil em 1950"
+    },
+    {
+      "clue_id": "bra-rio-de-janeiro-mid-02",
+      "tier": "mid",
+      "category": "geografia",
+      "text": {
+        "pt-BR": "O calçadão mais fotografado do continente desenha ondas de pedra branca e preta assinadas por um paisagista.",
+        "en-US": "The continent's most photographed boardwalk draws black-and-white stone waves signed by a landscape artist.",
+        "es": "El paseo más fotografiado del continente dibuja olas de piedra blanca y negra firmadas por un paisajista."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Calçadão de Copacabana, projeto de Roberto Burle Marx (1970)"
+    },
+    {
+      "clue_id": "bra-rio-de-janeiro-mid-03",
+      "tier": "mid",
+      "category": "natureza",
+      "text": {
+        "pt-BR": "Entre o pão de açúcar e o pão de queijo, um bondinho centenário sobe um morro em forma de dedo.",
+        "en-US": "Between sugarloaf bread and cheese bread, a century-old cable car climbs a finger-shaped hill.",
+        "es": "Entre el pan de azúcar y el pan de queso, un teleférico centenario sube un cerro con forma de dedo."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Bondinho do Pão de Açúcar (1912); Morro da Urca/Pão de Açúcar"
+    },
+    {
+      "clue_id": "bra-rio-de-janeiro-high-01",
+      "tier": "high",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Foi sede de corte de um império europeu fora da Europa entre 1808 e 1821 — caso único.",
+        "en-US": "It housed a European empire's court outside Europe between 1808 and 1821 — a unique case.",
+        "es": "Alojó la corte de un imperio europeo fuera de Europa entre 1808 y 1821 — caso único."
+      },
+      "uniqueness_scope": "global",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Transferência da corte portuguesa para o Rio, 1808–1821"
+    },
+    {
+      "clue_id": "bra-rio-de-janeiro-high-02",
+      "tier": "high",
+      "category": "idioma_cultura",
+      "text": {
+        "pt-BR": "O berço do samba tem endereços disputados, mas foi nesta cidade que o gênero virou patrimônio nacional.",
+        "en-US": "Samba's birthplace is contested ground, but it was here the genre became national heritage.",
+        "es": "La cuna del samba es territorio en disputa, pero aquí el género se volvió patrimonio nacional."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Samba carioca registrado como patrimônio cultural do Brasil (IPHAN, 2007)"
+    },
+    {
+      "clue_id": "bra-rio-de-janeiro-high-03",
+      "tier": "high",
+      "category": "economia",
+      "text": {
+        "pt-BR": "Perdeu a coroa de capital para uma cidade planejada no planalto em 1960.",
+        "en-US": "It lost its capital crown to a planned plateau city in 1960.",
+        "es": "Perdió la corona de capital ante una ciudad planificada en el altiplano en 1960."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Inauguração de Brasília, 21 de abril de 1960"
+    }
+  ],
+  "distractors": [
+    "bra-sao-paulo",
+    "bra-salvador",
+    "bra-recife",
+    "bra-florianopolis",
+    "arg-buenos-aires",
+    "per-lima",
+    "col-cartagena"
+  ],
+  "postcard": {
+    "art_ref": "postcard_bra_rio_de_janeiro",
+    "fun_fact": {
+      "pt-BR": "A Floresta da Tijuca, no coração da cidade, foi replantada à mão por trabalhadores libertos a partir de 1861.",
+      "en-US": "Tijuca Forest, in the heart of the city, was hand-replanted by freed workers starting in 1861.",
+      "es": "El Bosque de Tijuca, en plena ciudad, fue replantado a mano por trabajadores libertos desde 1861."
+    }
+  },
+  "tags": ["praias", "monumentos", "floresta_urbana", "musica", "carnaval"]
+}

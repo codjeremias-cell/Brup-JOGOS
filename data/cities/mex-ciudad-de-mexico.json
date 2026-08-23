@@ -1,0 +1,180 @@
+{
+  "schema_version": "2.0",
+  "content_version": "2026.08.001",
+  "city_id": "mex-ciudad-de-mexico",
+  "names": { "pt-BR": "Cidade do México", "en-US": "Mexico City", "es": "Ciudad de México" },
+  "country": { "pt-BR": "México", "en-US": "Mexico", "es": "México", "iso2": "MX" },
+  "continent": "north_america",
+  "difficulty_tier": 1,
+  "coords": { "lat": 19.4326, "lon": -99.1332 },
+  "timezone": "America/Mexico_City",
+  "utc_offset": -6,
+  "facts": {
+    "currency_iso": "MXN",
+    "languages": ["es"],
+    "climate_tag": "temperado_altitude",
+    "language_family": "romance",
+    "flag_iso": "MX"
+  },
+  "clues": [
+    {
+      "clue_id": "mex-ciudad-de-mexico-low-01",
+      "tier": "low",
+      "category": "geografia",
+      "text": {
+        "pt-BR": "Metrópole erguida sobre um lago drenado: afunda centímetros a cada ano.",
+        "en-US": "A metropolis built on a drained lake: it sinks centimeters every year.",
+        "es": "Metrópolis construida sobre un lago drenado: se hunde centímetros cada año."
+      },
+      "analysis": {
+        "pt-BR": "Subsolo lacustre + afundamento = bacia endorreica com megacidade em cima.",
+        "en-US": "Lakebed subsoil plus sinking points to an endorheic basin under a megacity.",
+        "es": "Subsuelo lacustre más hundimiento señala una cuenca endorreica bajo una megaciudad."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Antigo lago de Texcoco; subsidência documentada"
+    },
+    {
+      "clue_id": "mex-ciudad-de-mexico-low-02",
+      "tier": "low",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Astecas viram uma águia sobre um cacto numa ilhota e fundaram ali sua capital em 1325.",
+        "en-US": "Aztecs saw an eagle on a cactus on a small island and founded their capital there in 1325.",
+        "es": "Los aztecas vieron un águila sobre un nopal en una islita y fundaron allí su capital en 1325."
+      },
+      "analysis": {
+        "pt-BR": "Lenda de fundação que virou brasão nacional mexicano.",
+        "en-US": "A founding legend that became Mexico's national coat of arms.",
+        "es": "Leyenda de fundación que se volvió escudo nacional mexicano."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Fundação de Tenochtitlán, ~1325 (datação tradicional)"
+    },
+    {
+      "clue_id": "mex-ciudad-de-mexico-low-03",
+      "tier": "low",
+      "category": "clima",
+      "text": {
+        "pt-BR": "A dois mil metros de altitude, o ar é fino e a neve mora nos vulcões vizinhos.",
+        "en-US": "At two thousand meters of altitude the air is thin, and snow lives on neighboring volcanoes.",
+        "es": "A dos mil metros de altura el aire es delgado, y la nieve vive en los volcanes vecinos."
+      },
+      "analysis": {
+        "pt-BR": "Altitude elevada com vulcões nevados: planalto mexicano.",
+        "en-US": "High altitude with snowy volcanoes: the Mexican highlands.",
+        "es": "Gran altitud con volcanes nevados: el altiplano mexicano."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "~2.240 m de altitude; Popocatépetl e Iztaccíhuatl ao horizonte"
+    },
+    {
+      "clue_id": "mex-ciudad-de-mexico-mid-01",
+      "tier": "mid",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Ruínas do grande templo asteca espreitam entre a catedral e o palácio nacional.",
+        "en-US": "Ruins of the great Aztec temple peer out between the cathedral and the national palace.",
+        "es": "Las ruinas del gran templo azteca asoman entre la catedral y el palacio nacional."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Templo Mayor, redescoberto em 1978"
+    },
+    {
+      "clue_id": "mex-ciudad-de-mexico-mid-02",
+      "tier": "mid",
+      "category": "geografia",
+      "text": {
+        "pt-BR": "Jardins flutuantes pré-hispânicos navegam em canais coloridos ao sul da cidade.",
+        "en-US": "Pre-Hispanic floating gardens still sail colorful canals south of the city.",
+        "es": "Jardines flotantes prehispánicos navegan canales coloridos al sur de la ciudad."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Xochimilco, chinampas, Patrimônio da Humanidade"
+    },
+    {
+      "clue_id": "mex-ciudad-de-mexico-mid-03",
+      "tier": "mid",
+      "category": "marco",
+      "text": {
+        "pt-BR": "No parque central há um castelo que serviu de trono a um imperador europeu.",
+        "en-US": "The central park holds a castle that served as throne to a European emperor.",
+        "es": "En el parque central hay un castillo que sirvió de trono a un emperador europeo."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Castillo de Chapultepec; Segundo Império Mexicano de Maximiliano"
+    },
+    {
+      "clue_id": "mex-ciudad-de-mexico-high-01",
+      "tier": "high",
+      "category": "marco",
+      "text": {
+        "pt-BR": "A catedral afunda em velocidades diferentes e recebeu contrapesos subterrâneos.",
+        "en-US": "The cathedral sinks at different speeds and received underground counterweights.",
+        "es": "La catedral se hunde a velocidades diferentes y recibió contrapesos subterráneos."
+      },
+      "uniqueness_scope": "global",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Intervenção estrutural dos anos 1990 na Catedral Metropolitana"
+    },
+    {
+      "clue_id": "mex-ciudad-de-mexico-high-02",
+      "tier": "high",
+      "category": "idioma_cultura",
+      "text": {
+        "pt-BR": "A casa azul de Coyoacán guarda a memória de Frida Kahlo.",
+        "en-US": "The blue house of Coyoacán keeps Frida Kahlo's memory.",
+        "es": "La casa azul de Coyoacán guarda la memoria de Frida Kahlo."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Museo Frida Kahlo (Casa Azul), Coyoacán"
+    },
+    {
+      "clue_id": "mex-ciudad-de-mexico-high-03",
+      "tier": "high",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Pirâmides de uma cidade misteriosa anterior aos astecas ficam a cinquenta quilômetros.",
+        "en-US": "Pyramids of a mysterious city older than the Aztecs sit fifty kilometers away.",
+        "es": "Pirámides de una ciudad misteriosa anterior a los aztecas quedan a cincuenta kilómetros."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Teotihuacán, ~50 km do centro; apogeu séculos I–VIII"
+    }
+  ],
+  "distractors": [
+    "mex-guadalajara",
+    "mex-puebla",
+    "mex-monterrey",
+    "mex-morelia",
+    "gtm-antigua",
+    "esp-madrid",
+    "per-lima"
+  ],
+  "postcard": {
+    "art_ref": "postcard_mex_cdmx",
+    "fun_fact": {
+      "pt-BR": "Xochimilco é o último remanescente vivo dos canais do antigo lago de Tenochtitlán.",
+      "en-US": "Xochimilco is the last living remnant of the ancient lake canals of Tenochtitlán.",
+      "es": "Xochimilco es el último remanente vivo de los canales del antiguo lago de Tenochtitlán."
+    }
+  },
+  "tags": ["azteca", "altiplano", "museus", "muralismo"]
+}

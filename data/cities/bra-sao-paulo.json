@@ -1,0 +1,180 @@
+{
+  "schema_version": "2.0",
+  "content_version": "2026.08.001",
+  "city_id": "bra-sao-paulo",
+  "names": { "pt-BR": "São Paulo", "en-US": "São Paulo", "es": "São Paulo" },
+  "country": { "pt-BR": "Brasil", "en-US": "Brazil", "es": "Brasil", "iso2": "BR" },
+  "continent": "south_america",
+  "difficulty_tier": 1,
+  "coords": { "lat": -23.5505, "lon": -46.6333 },
+  "timezone": "America/Sao_Paulo",
+  "utc_offset": -3,
+  "facts": {
+    "currency_iso": "BRL",
+    "languages": ["pt"],
+    "climate_tag": "subtropical_altitude",
+    "language_family": "romance",
+    "flag_iso": "BR"
+  },
+  "clues": [
+    {
+      "clue_id": "bra-sao-paulo-low-01",
+      "tier": "low",
+      "category": "geografia",
+      "text": {
+        "pt-BR": "Selva de concreto sem mar à vista: a água mais próxima leva horas de trânsito.",
+        "en-US": "A concrete jungle with no sea in sight: the nearest water takes hours of traffic.",
+        "es": "Selva de hormigón sin mar a la vista: el agua más cercana queda a horas de tráfico."
+      },
+      "analysis": {
+        "pt-BR": "Metrópole gigante sem litoral: elimina capitais costeiras do painel.",
+        "en-US": "Huge landlocked metropolis: eliminates coastal capitals from the panel.",
+        "es": "Metrópolis gigante sin costa: elimina capitales costeras del panel."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Localização no planalto paulista, ~70 km do litoral"
+    },
+    {
+      "clue_id": "bra-sao-paulo-low-02",
+      "tier": "low",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Padres jesuítas fundaram uma vila entre pinheiros num planalto em 1554.",
+        "en-US": "Jesuit priests founded a village among pines on a plateau in 1554.",
+        "es": "Padres jesuitas fundaron una aldea entre pinos en un altiplano en 1554."
+      },
+      "analysis": {
+        "pt-BR": "Fundação jesuítica no século XVI em planalto interiorano.",
+        "en-US": "Jesuit founding in the 16th century on an inland plateau.",
+        "es": "Fundación jesuita del siglo XVI en un altiplano interior."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Missão de Manuel da Nóbrega e José de Anchieta, 25/01/1554"
+    },
+    {
+      "clue_id": "bra-sao-paulo-low-03",
+      "tier": "low",
+      "category": "marco",
+      "text": {
+        "pt-BR": "Quatro vigas vermelhas suspendem um museu de vidro sobre a avenida mais famosa.",
+        "en-US": "Four red beams suspend a glass museum above the most famous avenue.",
+        "es": "Cuatro vigas rojas suspenden un museo de cristal sobre la avenida más famosa."
+      },
+      "analysis": {
+        "pt-BR": "Museu suspenso por vigas = arquitetura modernista icônica dos anos 1960.",
+        "en-US": "A museum hung from beams points to iconic 1960s modernist architecture.",
+        "es": "Un museo colgado de vigas apunta a una arquitectura modernista icónica de los años sesenta."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "MASP, Lina Bo Bardi, 1968"
+    },
+    {
+      "clue_id": "bra-sao-paulo-mid-01",
+      "tier": "mid",
+      "category": "idioma_cultura",
+      "text": {
+        "pt-BR": "O maior bairro japonês fora do Japão tem portais vermelhos e feira de fim de semana.",
+        "en-US": "The largest Japanese district outside Japan has red gates and weekend street fairs.",
+        "es": "El barrio japonés más grande fuera de Japón tiene portones rojos y ferias de fin de semana."
+      },
+      "uniqueness_scope": "global",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Bairro da Liberdade, referência consolidada"
+    },
+    {
+      "clue_id": "bra-sao-paulo-mid-02",
+      "tier": "mid",
+      "category": "gastronomia",
+      "text": {
+        "pt-BR": "Sanduíche de mortadela quase maior que o pão: rito obrigatório num mercado de vitrais centenários.",
+        "en-US": "A mortadella sandwich nearly bigger than the bread: a rite inside a market with centennial stained glass.",
+        "es": "Un sándwich de mortadela casi más grande que el pan: rito obligado en un mercado de vitrales centenarios."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Mercado Municipal (Mercadão), vitrais de Conrado Sorgenicht"
+    },
+    {
+      "clue_id": "bra-sao-paulo-mid-03",
+      "tier": "mid",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Recebeu a bienal de arte mais antiga do mundo depois da de Veneza.",
+        "en-US": "It hosts the world's oldest art biennial after Venice's.",
+        "es": "Recibe la bienal de arte más antigua del mundo después de la de Venecia."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Bienal de São Paulo fundada em 1951; Bienal de Veneza, 1895"
+    },
+    {
+      "clue_id": "bra-sao-paulo-high-01",
+      "tier": "high",
+      "category": "geografia",
+      "text": {
+        "pt-BR": "Dois rios retificados batizaram as vias expressas mais congestionadas do país.",
+        "en-US": "Two channelized rivers named the country's most congested expressways.",
+        "es": "Dos ríos canalizados dieron nombre a las autopistas urbanas más congestionadas del país."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Marginais do Tietê e do Pinheiros"
+    },
+    {
+      "clue_id": "bra-sao-paulo-high-02",
+      "tier": "high",
+      "category": "historia",
+      "text": {
+        "pt-BR": "O nome completo herdou a vila jesuítica original: campos de Piratininga.",
+        "en-US": "Its full name inherited the original Jesuit village: fields of Piratininga.",
+        "es": "Su nombre completo heredó la aldea jesuítica original: campos de Piratininga."
+      },
+      "uniqueness_scope": "global",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Nome histórico 'São Paulo dos Campos de Piratininga'"
+    },
+    {
+      "clue_id": "bra-sao-paulo-high-03",
+      "tier": "high",
+      "category": "economia",
+      "text": {
+        "pt-BR": "Registra uma das maiores frotas urbanas de helicópteros do mundo.",
+        "en-US": "It registers one of the largest urban helicopter fleets in the world.",
+        "es": "Registra una de las mayores flotas urbanas de helicópteros del mundo."
+      },
+      "uniqueness_scope": "global",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Estatísticas de aviação civil amplamente divulgadas sobre a cidade"
+    }
+  ],
+  "distractors": [
+    "bra-rio-de-janeiro",
+    "bra-curitiba",
+    "bra-campinas",
+    "chi-santiago",
+    "col-bogota",
+    "mex-guadalajara",
+    "arg-buenos-aires"
+  ],
+  "postcard": {
+    "art_ref": "postcard_bra_sao_paulo",
+    "fun_fact": {
+      "pt-BR": "O bairro da Liberdade abriga a maior comunidade japonesa fora do Japão.",
+      "en-US": "The Liberdade district hosts the largest Japanese community outside Japan.",
+      "es": "El barrio de Liberdade alberga la mayor comunidad japonesa fuera de Japón."
+    }
+  },
+  "tags": ["metropole", "gastronomia", "arte", "imigracao", "negocios"]
+}

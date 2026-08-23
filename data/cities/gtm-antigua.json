@@ -1,0 +1,179 @@
+{
+  "schema_version": "2.0",
+  "content_version": "2026.08.001",
+  "city_id": "gtm-antigua",
+  "names": { "pt-BR": "Antígua", "en-US": "Antigua", "es": "Antigua" },
+  "country": { "pt-BR": "Guatemala", "en-US": "Guatemala", "es": "Guatemala", "iso2": "GT" },
+  "continent": "north_america",
+  "difficulty_tier": 3,
+  "coords": { "lat": 14.5586, "lon": -90.7295 },
+  "timezone": "America/Guatemala",
+  "utc_offset": -6,
+  "facts": {
+    "currency_iso": "GTQ",
+    "languages": ["es"],
+    "climate_tag": "tropical_altitude",
+    "language_family": "romance",
+    "flag_iso": "GT"
+  },
+  "clues": [
+    {
+      "clue_id": "gtm-antigua-low-01",
+      "tier": "low",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Capital que tremeu demais: após o terremoto de 1773, o poder mudou-se — e ela dormiu em beleza.",
+        "en-US": "A capital that shook too much: after the 1773 earthquake, power moved away — and it slept in beauty.",
+        "es": "Capital que tembló demasiado: tras el terremoto de 1773, el poder se mudó — y ella durmió en belleza."
+      },
+      "analysis": {
+        "pt-BR": "Terremotos de 1773 forçaram mudança de capital colonial na América Central espanhola.",
+        "en-US": "The 1773 earthquakes forced a Spanish Central American capital to relocate.",
+        "es": "Los terremotos de 1773 obligaron a trasladar una capital colonial de Centroamérica española."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Terremotos de Santa Marta (1773); transferência da capital em 1776"
+    },
+    {
+      "clue_id": "gtm-antigua-low-02",
+      "tier": "low",
+      "category": "marco",
+      "text": {
+        "pt-BR": "Arco amarelo com relógio une dois conventos por cima da rua de pedra.",
+        "en-US": "A yellow arch with a clock joins two convents above the stone street.",
+        "es": "Un arco amarillo con reloj une dos conventos por encima de la calle empedrada."
+      },
+      "analysis": {
+        "pt-BR": "Arco urbano icônico que atravessa rua colonial — cartão-postal único.",
+        "en-US": "An iconic urban arch crossing a colonial street — a one-of-a-kind postcard.",
+        "es": "Arco urbano icónico que cruza una calle colonial — postal única."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Arco de Santa Catalina, século XVII"
+    },
+    {
+      "clue_id": "gtm-antigua-low-03",
+      "tier": "low",
+      "category": "geografia",
+      "text": {
+        "pt-BR": "Três vulcões fazem guarda ao redor; um deles vive fumando.",
+        "en-US": "Three volcanoes stand guard around it; one is always smoking.",
+        "es": "Tres volcanes hacen guardia alrededor; uno vive fumando."
+      },
+      "analysis": {
+        "pt-BR": "Trinça vulcânica com atividade constante no horizonte do vale.",
+        "en-US": "A volcanic trio with constant activity on the valley's horizon.",
+        "es": "Trío volcánico con actividad constante en el horizonte del valle."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Vulcões Agua, Fuego (ativo) e Acatenango"
+    },
+    {
+      "clue_id": "gtm-antigua-mid-01",
+      "tier": "mid",
+      "category": "marco",
+      "text": {
+        "pt-BR": "O arco nasceu para freiras cruzarem a rua sem serem vistas.",
+        "en-US": "The arch was built so nuns could cross the street unseen.",
+        "es": "El arco fue construido para que las monjas cruzaran la calle sin ser vistas."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Função histórica do Arco de Santa Catalina"
+    },
+    {
+      "clue_id": "gtm-antigua-mid-02",
+      "tier": "mid",
+      "category": "idioma_cultura",
+      "text": {
+        "pt-BR": "Na Sexta-feira Santa, tapetes de serragem tingida cobrem as ruas de pedra.",
+        "en-US": "On Good Friday, carpets of dyed sawdust cover the stone streets.",
+        "es": "El Viernes Santo, alfombras de aserrín teñido cubren las calles empedradas."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Alfombras da Semana Santa, tradição reconhecida pela UNESCO (2013)"
+    },
+    {
+      "clue_id": "gtm-antigua-mid-03",
+      "tier": "mid",
+      "category": "marco",
+      "text": {
+        "pt-BR": "Catedrais sem teto guardam altares que o terremoto não levou embora.",
+        "en-US": "Roofless cathedrals keep altars the earthquake never carried away.",
+        "es": "Catedrales sin techo guardan altares que el terremoto no se llevó."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Ruínas coloniais preservadas como sítio aberto à visitação"
+    },
+    {
+      "clue_id": "gtm-antigua-high-01",
+      "tier": "high",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Sede da Capitania-Geral que governava territórios do Chiapas à Costa Rica.",
+        "en-US": "Seat of the Captaincy General that ruled lands from Chiapas to Costa Rica.",
+        "es": "Sede de la Capitanía General que gobernaba territorios de Chiapas a Costa Rica."
+      },
+      "uniqueness_scope": "global",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Capitania-Geral da Guatemala, período colonial espanhol"
+    },
+    {
+      "clue_id": "gtm-antigua-high-02",
+      "tier": "high",
+      "category": "marco",
+      "text": {
+        "pt-BR": "Patrimônio da Humanidade desde 1979, com traça em xadrez preservada.",
+        "en-US": "World Heritage since 1979, with a preserved checkerboard grid.",
+        "es": "Patrimonio de la Humanidad desde 1979, con damero colonial preservado."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Inscrição UNESCO 1979 (Antígua Guatemala)"
+    },
+    {
+      "clue_id": "gtm-antigua-high-03",
+      "tier": "high",
+      "category": "idioma_cultura",
+      "text": {
+        "pt-BR": "Capital das escolas de espanhol da América Central: estudantes chegam do mundo inteiro.",
+        "en-US": "Central America's Spanish-school capital: students arrive from everywhere.",
+        "es": "Capital de las escuelas de español de Centroamérica: llegan estudiantes de todo el mundo."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Destino consolidado de imersão linguística na América Central"
+    }
+  ],
+  "distractors": [
+    "nic-granada",
+    "cub-trinidad",
+    "hnd-comayagua",
+    "slv-suchitoto",
+    "mex-san-cristobal",
+    "mex-oaxaca"
+  ],
+  "postcard": {
+    "art_ref": "postcard_gtm_antigua",
+    "fun_fact": {
+      "pt-BR": "As alfombras levam horas para serem montadas — e são apagadas pela primeira procissão que passa sobre elas.",
+      "en-US": "The sawdust carpets take hours to lay — and are erased by the very first procession that walks over them.",
+      "es": "Las alfombras tardan horas en prepararse — y las borra la primera procesión que pasa sobre ellas."
+    }
+  },
+  "tags": ["colonial", "vulcoes", "semana_santa", "espanhol"]
+}

@@ -1,0 +1,179 @@
+{
+  "schema_version": "2.0",
+  "content_version": "2026.08.001",
+  "city_id": "mex-merida",
+  "names": { "pt-BR": "Mérida", "en-US": "Mérida", "es": "Mérida" },
+  "country": { "pt-BR": "México", "en-US": "Mexico", "es": "México", "iso2": "MX" },
+  "continent": "north_america",
+  "difficulty_tier": 2,
+  "coords": { "lat": 20.9674, "lon": -89.5926 },
+  "timezone": "America/Merida",
+  "utc_offset": -6,
+  "facts": {
+    "currency_iso": "MXN",
+    "languages": ["es"],
+    "climate_tag": "tropical_seco",
+    "language_family": "romance",
+    "flag_iso": "MX"
+  },
+  "clues": [
+    {
+      "clue_id": "mex-merida-low-01",
+      "tier": "low",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Cidade branca construída com pedras reaproveitadas de uma capital maia anterior.",
+        "en-US": "A white city built with stones reused from an earlier Maya capital.",
+        "es": "Ciudad blanca construida con piedras reutilizadas de una anterior capital maya."
+      },
+      "analysis": {
+        "pt-BR": "Apelido 'branca' + fundação sobre cidade indígena: península iucatanense.",
+        "en-US": "The 'white' nickname plus founding atop a native city points to the Yucatán peninsula.",
+        "es": "El apodo 'blanca' más la fundación sobre una ciudad nativa apuntan a la península de Yucatán."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Fundação de Mérida (1542) sobre T'Hó/Ichcaanziho; apelido 'Ciudad Blanca'"
+    },
+    {
+      "clue_id": "mex-merida-low-02",
+      "tier": "low",
+      "category": "marco",
+      "text": {
+        "pt-BR": "Catedral concluída em 1598: a mais antiga em terra firme das Américas.",
+        "en-US": "A cathedral completed in 1598: the oldest on the mainland of the Americas.",
+        "es": "Catedral concluida en 1598: la más antigua en tierra firme de las Américas."
+      },
+      "analysis": {
+        "pt-BR": "'Terra firme' exclui catedrais insulares mais velhas (Santo Domingo fica numa ilha).",
+        "en-US": "'Mainland' excludes older island cathedrals (Santo Domingo sits on an island).",
+        "es": "'Tierra firme' excluye catedrales insulares más viejas (Santo Domingo está en una isla)."
+      },
+      "uniqueness_scope": "global",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Catedral de Mérida, concluída em 1598"
+    },
+    {
+      "clue_id": "mex-merida-low-03",
+      "tier": "low",
+      "category": "economia",
+      "text": {
+        "pt-BR": "O 'ouro verde' era fibra: sisal financiou mansões na avenida principal.",
+        "en-US": "The 'green gold' was fiber: sisal financed mansions along the main avenue.",
+        "es": "El 'oro verde' era fibra: el sisal financió mansiones en la avenida principal."
+      },
+      "analysis": {
+        "pt-BR": "Boom do henequén/sisal é marca histórica específica do Yucatán.",
+        "en-US": "The henequén/sisal boom is a historical signature specific to Yucatán.",
+        "es": "El boom del henequén/sisal es una marca histórica específica de Yucatán."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Paseo de Montejo, riqueza do henequén no fim do século XIX"
+    },
+    {
+      "clue_id": "mex-merida-mid-01",
+      "tier": "mid",
+      "category": "gastronomia",
+      "text": {
+        "pt-BR": "Porco marinado cozido sob a terra, embrulhado em folhas de bananeira.",
+        "en-US": "Marinated pork cooked under the earth, wrapped in banana leaves.",
+        "es": "Cerdo marinado cocido bajo la tierra, envuelto en hojas de plátano."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Cochinita pibil, prato-símbolo yucateco"
+    },
+    {
+      "clue_id": "mex-merida-mid-02",
+      "tier": "mid",
+      "category": "natureza",
+      "text": {
+        "pt-BR": "Poços sagrados de água doce furam o planalto calcário em toda parte.",
+        "en-US": "Sacred freshwater wells pierce the limestone plateau everywhere.",
+        "es": "Pozos sagrados de agua dulce perforan el altiplano calcáreo por todas partes."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Cenotes da península de Yucatán, sem rios superficiais na região"
+    },
+    {
+      "clue_id": "mex-merida-mid-03",
+      "tier": "mid",
+      "category": "idioma_cultura",
+      "text": {
+        "pt-BR": "Sotaque cantado herdou a melodia das línguas maias faladas até hoje.",
+        "en-US": "The sing-song accent inherited its melody from Maya languages still spoken today.",
+        "es": "El acento cantado heredó su melodía de las lenguas mayas habladas hasta hoy."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Espanhol iucateco influenciado pelo maia; língua maya-yucateca viva"
+    },
+    {
+      "clue_id": "mex-merida-high-01",
+      "tier": "high",
+      "category": "marco",
+      "text": {
+        "pt-BR": "Na pirâmide próxima, a sombra de uma serpente desce os degraus nos equinócios.",
+        "en-US": "On the nearby pyramid, a serpent's shadow descends the steps at the equinoxes.",
+        "es": "En la pirámide cercana, la sombra de una serpiente baja los escalones en los equinoccios."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Chichén Itzá (~120 km): descida da sombra de Kukulcán nos equinócios"
+    },
+    {
+      "clue_id": "mex-merida-high-02",
+      "tier": "high",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Esta capital declarou independência do país uma vez — e depois voltou.",
+        "en-US": "This capital once declared independence from its country — and later returned.",
+        "es": "Esta capital declaró independencia del país una vez — y luego volvió."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "República de Yucatán (1840s), reincorporada ao México em 1848"
+    },
+    {
+      "clue_id": "mex-merida-high-03",
+      "tier": "high",
+      "category": "natureza",
+      "text": {
+        "pt-BR": "A pirâmide central soma trezentos e sessenta e cinco degraus: um calendário de pedra.",
+        "en-US": "The central pyramid totals three hundred sixty-five steps: a stone calendar.",
+        "es": "La pirámide central suma trescientos sesenta y cinco escalones: un calendario de piedra."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "El Castillo/Templo de Kukulcán: 91×4 degraus + plataforma = 365"
+    }
+  ],
+  "distractors": [
+    "mex-campeche",
+    "mex-valladolid",
+    "mex-oaxaca",
+    "cub-havana",
+    "dom-santo-domingo",
+    "nic-granada"
+  ],
+  "postcard": {
+    "art_ref": "postcard_mex_merida",
+    "fun_fact": {
+      "pt-BR": "Os cenotes eram portais para o submundo maia — e fontes vitais numa terra quase sem rios.",
+      "en-US": "Cenotes were portals to the Maya underworld — and vital springs in a land with almost no rivers.",
+      "es": "Los cenotes eran portales al inframundo maya — y manantiales vitales en una tierra casi sin ríos."
+    }
+  },
+  "tags": ["maia", "cenotes", "colonial", "gastronomia"]
+}

@@ -1,0 +1,179 @@
+{
+  "schema_version": "2.0",
+  "content_version": "2026.08.001",
+  "city_id": "nic-granada",
+  "names": { "pt-BR": "Granada", "en-US": "Granada", "es": "Granada" },
+  "country": { "pt-BR": "Nicarágua", "en-US": "Nicaragua", "es": "Nicaragua", "iso2": "NI" },
+  "continent": "north_america",
+  "difficulty_tier": 3,
+  "coords": { "lat": 11.9344, "lon": -85.956 },
+  "timezone": "America/Managua",
+  "utc_offset": -6,
+  "facts": {
+    "currency_iso": "NIO",
+    "languages": ["es"],
+    "climate_tag": "tropical_seco",
+    "language_family": "romance",
+    "flag_iso": "NI"
+  },
+  "clues": [
+    {
+      "clue_id": "nic-granada-low-01",
+      "tier": "low",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Fundada em 1524 às margens de um lago de água doce que um dia abrigou tubarões.",
+        "en-US": "Founded in 1524 on the shore of a freshwater lake that once held sharks.",
+        "es": "Fundada en 1524 a orillas de un lago de agua dulce que alguna vez tuvo tiburones."
+      },
+      "analysis": {
+        "pt-BR": "Cidade colonial muito antiga + lago com tubarões: combinação única na América Central.",
+        "en-US": "Very old colonial city plus a shark lake: a unique pairing in Central America.",
+        "es": "Ciudad colonial muy antigua más un lago con tiburones: combinación única en Centroamérica."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Lago Cocibolca/Nicarágua, historicamente habitado por tubarões-touro"
+    },
+    {
+      "clue_id": "nic-granada-low-02",
+      "tier": "low",
+      "category": "geografia",
+      "text": {
+        "pt-BR": "Telhados vermelhos espelham num lago dominado por um vulcão adormecido.",
+        "en-US": "Red rooftops mirror in a lake dominated by a dormant volcano.",
+        "es": "Techos rojos se reflejan en un lago dominado por un volcán durmiente."
+      },
+      "analysis": {
+        "pt-BR": "Conjugação lago + vulcão visível da cidade: Mombacho ao sul de Granada.",
+        "en-US": "Lake plus volcano visible from town points to Mombacho south of Granada.",
+        "es": "Lago más volcán visible desde el pueblo apunta al Mombacho al sur de Granada."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Vulcão Mombacho à beira do lago Cocibolca"
+    },
+    {
+      "clue_id": "nic-granada-low-03",
+      "tier": "low",
+      "category": "historia",
+      "text": {
+        "pt-BR": "O nome é emprestado de uma cidade moura do sul da Espanha.",
+        "en-US": "Its name is borrowed from a Moorish city of southern Spain.",
+        "es": "Su nombre es prestado de una ciudad mora del sur de España."
+      },
+      "analysis": {
+        "pt-BR": "Topônimo ibérico transplantado pelos colonizadores espanhóis no século XVI.",
+        "en-US": "An Iberian place name transplanted by Spanish colonizers in the 16th century.",
+        "es": "Topónimo ibérico trasplantado por los colonizadores españoles en el siglo XVI."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Nome herdado de Granada, Andaluzia"
+    },
+    {
+      "clue_id": "nic-granada-mid-01",
+      "tier": "mid",
+      "category": "natureza",
+      "text": {
+        "pt-BR": "Trezentas e sessenta e cinco ilhotas vulcânicas pontilham o lago diante da cidade.",
+        "en-US": "Three hundred sixty-five volcanic islets dot the lake in front of the city.",
+        "es": "Trescientas sesenta y cinco islitas volcánicas salpican el lago frente a la ciudad."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Isletas de Granada, número tradicionalmente contado em ~365"
+    },
+    {
+      "clue_id": "nic-granada-mid-02",
+      "tier": "mid",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Brigou eternamente com a rival León pela capital — até escolherem uma terceira cidade.",
+        "en-US": "It feuded forever with rival León over the capital — until they picked a third city.",
+        "es": "Peleó eternamente con la rival León por la capital — hasta que eligieron una tercera ciudad."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Managua escolhida como capital de compromisso em 1852"
+    },
+    {
+      "clue_id": "nic-granada-mid-03",
+      "tier": "mid",
+      "category": "natureza",
+      "text": {
+        "pt-BR": "Macacos bugios e garças dividem as ilhotas formadas por lama vulcânica.",
+        "en-US": "Howler monkeys and herons share the islets formed by volcanic mud.",
+        "es": "Monos congo y garzas comparten las islitas formadas por barro volcánico."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Fauna das isletas; origem vulcânica ligada ao Mombacho"
+    },
+    {
+      "clue_id": "nic-granada-high-01",
+      "tier": "high",
+      "category": "economia",
+      "text": {
+        "pt-BR": "Seu fundador emprestou o sobrenome à moeda do país.",
+        "en-US": "Its founder lent his surname to the country's currency.",
+        "es": "Su fundador prestó su apellido a la moneda del país."
+      },
+      "uniqueness_scope": "global",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Francisco Hernández de Córdoba (fundador, 1524); córdoba nicaragüense"
+    },
+    {
+      "clue_id": "nic-granada-high-02",
+      "tier": "high",
+      "category": "natureza",
+      "text": {
+        "pt-BR": "Tubarões-touro subiam o rio San Juan, saltando corredeiras, até chegar ao lago.",
+        "en-US": "Bull sharks swam up the San Juan river, leaping rapids, all the way to the lake.",
+        "es": "Tiburones toro subían el río San Juan, saltando rápidos, hasta llegar al lago."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Migração documentada de tubarões-touro entre o Caribe e o lago"
+    },
+    {
+      "clue_id": "nic-granada-high-03",
+      "tier": "high",
+      "category": "marco",
+      "text": {
+        "pt-BR": "Da torre de La Merced avistam-se os telhados coloniais e o vulcão Mombacho.",
+        "en-US": "From La Merced's bell tower you can see the colonial rooftops and Mombacho volcano.",
+        "es": "Desde la torre de La Merced se ven los techos coloniales y el volcán Mombacho."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Iglesia La Merced, mirador turístico consolidado"
+    }
+  ],
+  "distractors": [
+    "nic-leon",
+    "cub-trinidad",
+    "gtm-antigua",
+    "pan-casco-antiguo",
+    "hnd-comayagua",
+    "dom-santo-domingo"
+  ],
+  "postcard": {
+    "art_ref": "postcard_nic_granada",
+    "fun_fact": {
+      "pt-BR": "O Cocibolca é um dos poucos lagos de água doce do planeta com tubarões permanentes.",
+      "en-US": "Cocibolca is one of the few freshwater lakes on Earth with permanent sharks.",
+      "es": "El Cocibolca es uno de los pocos lagos de agua dulce del planeta con tiburones permanentes."
+    }
+  },
+  "tags": ["colonial", "lago", "vulcao", "isletas"]
+}

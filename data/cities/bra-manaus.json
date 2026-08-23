@@ -1,0 +1,180 @@
+{
+  "schema_version": "2.0",
+  "content_version": "2026.08.001",
+  "city_id": "bra-manaus",
+  "names": { "pt-BR": "Manaus", "en-US": "Manaus", "es": "Manaos" },
+  "country": { "pt-BR": "Brasil", "en-US": "Brazil", "es": "Brasil", "iso2": "BR" },
+  "continent": "south_america",
+  "difficulty_tier": 2,
+  "coords": { "lat": -3.119, "lon": -60.0217 },
+  "timezone": "America/Manaus",
+  "utc_offset": -4,
+  "facts": {
+    "currency_iso": "BRL",
+    "languages": ["pt"],
+    "climate_tag": "equatorial",
+    "language_family": "romance",
+    "flag_iso": "BR"
+  },
+  "clues": [
+    {
+      "clue_id": "bra-manaus-low-01",
+      "tier": "low",
+      "category": "marco",
+      "text": {
+        "pt-BR": "Um teatro italiano floresce no coração da maior floresta tropical do planeta.",
+        "en-US": "An Italian opera house blooms in the heart of the planet's largest rainforest.",
+        "es": "Un teatro italiano florece en el corazón de la mayor selva tropical del planeta."
+      },
+      "analysis": {
+        "pt-BR": "Ópera no meio da selva = riqueza súbita do ciclo da borracha na Amazônia.",
+        "en-US": "An opera house mid-jungle points to the sudden wealth of the Amazon rubber boom.",
+        "es": "Un teatro en plena selva apunta a la riqueza súbita del ciclo del caucho amazónico."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Teatro Amazonas, ciclo da borracha"
+    },
+    {
+      "clue_id": "bra-manaus-low-02",
+      "tier": "low",
+      "category": "natureza",
+      "text": {
+        "pt-BR": "Duas águas correm quilômetros lado a lado sem se misturar: uma negra e morna, outra barrenta e veloz.",
+        "en-US": "Two rivers run side by side for miles without mixing: one dark and warm, the other muddy and fast.",
+        "es": "Dos aguas corren kilómetros lado a lado sin mezclarse: una negra y tibia, otra barrosa y rápida."
+      },
+      "analysis": {
+        "pt-BR": "Fenôme hidrológico por diferença de densidade, temperatura e velocidade — cartão de visita amazônico.",
+        "en-US": "A hydrological phenomenon caused by differences in density, temperature and speed — an Amazonian calling card.",
+        "es": "Fenómeno hidrológico por diferencias de densidad, temperatura y velocidad — tarjeta de presentación amazónica."
+      },
+      "uniqueness_scope": "continental",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Encontro das Águas (Rio Negro × Rio Solimões)"
+    },
+    {
+      "clue_id": "bra-manaus-low-03",
+      "tier": "low",
+      "category": "economia",
+      "text": {
+        "pt-BR": "Fez milionários com borracha; hoje produz eletrônicos sob um regime livre criado em 1967.",
+        "en-US": "It minted rubber millionaires; today it makes electronics under a free-trade regime created in 1967.",
+        "es": "Hizo millonarios con el caucho; hoy produce electrónica bajo un régimen libre creado en 1967."
+      },
+      "analysis": {
+        "pt-BR": "Ciclo da borracha + zona franca: combinação única de passado e presente econômicos.",
+        "en-US": "Rubber boom plus free zone: a unique pairing of economic past and present.",
+        "es": "Ciclo del caucho más zona franca: combinación única de pasado y presente económicos."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 1,
+      "sensitivity_reviewed": true,
+      "fact_source": "Zona Franca de Manaus, Decreto-Lei nº 288/1967"
+    },
+    {
+      "clue_id": "bra-manaus-mid-01",
+      "tier": "mid",
+      "category": "marco",
+      "text": {
+        "pt-BR": "O mercado de ferro chegou desmontado por navio e copiou um mercado parisiense.",
+        "en-US": "The iron market arrived disassembled by ship, copying a Parisian market.",
+        "es": "El mercado de hierro llegó desmontado en barco, copiando un mercado parisino."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Mercado Adolpho Lisboa, inspirado em Les Halles"
+    },
+    {
+      "clue_id": "bra-manaus-mid-02",
+      "tier": "mid",
+      "category": "geografia",
+      "text": {
+        "pt-BR": "É apresentada como a maior cidade do mundo cercada por floresta tropical em todas as direções.",
+        "en-US": "It is billed as the world's largest city surrounded by rainforest in every direction.",
+        "es": "Se presenta como la mayor ciudad del mundo rodeada de selva tropical en todas direcciones."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Caracterização amplamente difundida da cidade amazônica"
+    },
+    {
+      "clue_id": "bra-manaus-mid-03",
+      "tier": "mid",
+      "category": "historia",
+      "text": {
+        "pt-BR": "Barões do látex ergueram palacetes europeus e importaram ópera no século XIX.",
+        "en-US": "Rubber barons raised European mansions and imported opera in the 19th century.",
+        "es": "Los barones del látex levantaron palacetes europeos e importaron ópera en el siglo XIX."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 2,
+      "sensitivity_reviewed": true,
+      "fact_source": "Belle Époque amazônica, final do século XIX"
+    },
+    {
+      "clue_id": "bra-manaus-high-01",
+      "tier": "high",
+      "category": "historia",
+      "text": {
+        "pt-BR": "O teatro foi inaugurado na virada de 1896 para 1897, quando a borracha fazia milionários.",
+        "en-US": "The opera house opened at the turn of 1896 to 1897, when rubber made millionaires.",
+        "es": "El teatro fue inaugurado en la transición de 1896 a 1897, cuando el caucho hacía millonarios."
+      },
+      "uniqueness_scope": "global",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Inauguração do Teatro Amazonas, 31/12/1896"
+    },
+    {
+      "clue_id": "bra-manaus-high-02",
+      "tier": "high",
+      "category": "geografia",
+      "text": {
+        "pt-BR": "Porto flutuante acompanha cheias de até dez metros do rio Negro.",
+        "en-US": "A floating port rides flood levels up to ten meters on the Negro river.",
+        "es": "Un puerto flotante acompaña crecidas de hasta diez metros del río Negro."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Porto flutuante de Manaus; amplitude de cheia do rio Negro ~10 m"
+    },
+    {
+      "clue_id": "bra-manaus-high-03",
+      "tier": "high",
+      "category": "natureza",
+      "text": {
+        "pt-BR": "O rio escuro nasce na Colômbia e mantém a cor até encontrar as águas barrentas.",
+        "en-US": "The dark river rises in Colombia and keeps its color until it meets the muddy waters.",
+        "es": "El río oscuro nace en Colombia y mantiene su color hasta encontrar las aguas barrosas."
+      },
+      "uniqueness_scope": "regional",
+      "spoiler_level": 3,
+      "sensitivity_reviewed": true,
+      "fact_source": "Rio Negro: nascente na Colômbia; cor escura por taninos"
+    }
+  ],
+  "distractors": [
+    "bra-belem",
+    "bra-porto-velho",
+    "bra-rio-branco",
+    "per-iquitos",
+    "col-leticia",
+    "ecu-quito",
+    "ven-ciudad-bolivar"
+  ],
+  "postcard": {
+    "art_ref": "postcard_bra_manaus",
+    "fun_fact": {
+      "pt-BR": "No Encontro das Águas, é a diferença de temperatura, velocidade e densidade que impede os rios de se misturarem.",
+      "en-US": "At the Meeting of Waters, differences in temperature, speed and density keep the rivers from mixing.",
+      "es": "En el Encuentro de las Aguas, las diferencias de temperatura, velocidad y densidad impiden que los ríos se mezclen."
+    }
+  },
+  "tags": ["amazonia", "opera", "rios", "borracha", "floresta"]
+}
