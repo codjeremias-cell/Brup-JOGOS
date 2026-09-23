@@ -1,6 +1,9 @@
+# Politica vigente em 22/09/2026: validacao local; nuvem somente manual.
+# Ver VALIDACAO-LOCAL.md. Comentarios antigos sobre push/PR sao historicos.
 name: ci
 
-on: [push, pull_request]
+on:
+  workflow_dispatch:
 
 jobs:
   core-tests:
